@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-## solving cache matrix and returning value
+## solving cache matrix and returning value after checking is cache exists
 cacheSolve <- function(x) {
 	 m <- x$getsolve()
         if(!is.null(m)) {
